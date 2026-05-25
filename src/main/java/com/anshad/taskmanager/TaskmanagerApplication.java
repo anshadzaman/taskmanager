@@ -10,4 +10,8 @@ public class TaskmanagerApplication {
 		SpringApplication.run(TaskmanagerApplication.class, args);
 	}
 
+	@Override
+	public String toString() {
+		return super.toString();
+	}
 }
